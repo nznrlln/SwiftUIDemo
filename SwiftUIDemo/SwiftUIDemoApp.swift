@@ -20,7 +20,7 @@ struct SwiftUIDemoApp: App {
                     .tabItem {
                         Label("Profile", systemImage: "person.fill")
                     }
-                ListView()
+                CharactersListView()
                     .tabItem {
                         Label("List", systemImage: "list.star")
                     }

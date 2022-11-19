@@ -12,9 +12,9 @@
 		FD69AE832920108100A4A391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD69AE822920108100A4A391 /* Assets.xcassets */; };
 		FD69AE862920108100A4A391 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD69AE852920108100A4A391 /* Preview Assets.xcassets */; };
 		FD69AE8D29210F5D00A4A391 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69AE8C29210F5D00A4A391 /* ProfileView.swift */; };
-		FD69AE932925725100A4A391 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69AE922925725100A4A391 /* ListView.swift */; };
+		FD69AE932925725100A4A391 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69AE922925725100A4A391 /* CharactersListView.swift */; };
 		FD69AE952925782700A4A391 /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69AE942925782700A4A391 /* CharactersModel.swift */; };
-		FD69AE972928DF7900A4A391 /* CharacterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69AE962928DF7900A4A391 /* CharacterDetail.swift */; };
+		FD69AE972928DF7900A4A391 /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD69AE962928DF7900A4A391 /* CharacterDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +24,9 @@
 		FD69AE822920108100A4A391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD69AE852920108100A4A391 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD69AE8C29210F5D00A4A391 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		FD69AE922925725100A4A391 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = ../../ListView.swift; sourceTree = "<group>"; };
+		FD69AE922925725100A4A391 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
 		FD69AE942925782700A4A391 /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
-		FD69AE962928DF7900A4A391 /* CharacterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetail.swift; sourceTree = "<group>"; };
+		FD69AE962928DF7900A4A391 /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +62,11 @@
 				FD69AE7E2920107F00A4A391 /* SwiftUIDemoApp.swift */,
 				FD69AE802920107F00A4A391 /* ContentView.swift */,
 				FD69AE8C29210F5D00A4A391 /* ProfileView.swift */,
-				FD69AE922925725100A4A391 /* ListView.swift */,
+				FD69AE922925725100A4A391 /* CharactersListView.swift */,
+				FD69AE942925782700A4A391 /* CharactersModel.swift */,
+				FD69AE962928DF7900A4A391 /* CharacterDetailsView.swift */,
 				FD69AE822920108100A4A391 /* Assets.xcassets */,
 				FD69AE842920108100A4A391 /* Preview Content */,
-				FD69AE942925782700A4A391 /* CharactersModel.swift */,
-				FD69AE962928DF7900A4A391 /* CharacterDetail.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD69AE972928DF7900A4A391 /* CharacterDetail.swift in Sources */,
-				FD69AE932925725100A4A391 /* ListView.swift in Sources */,
+				FD69AE972928DF7900A4A391 /* CharacterDetailsView.swift in Sources */,
+				FD69AE932925725100A4A391 /* CharactersListView.swift in Sources */,
 				FD69AE812920107F00A4A391 /* ContentView.swift in Sources */,
 				FD69AE8D29210F5D00A4A391 /* ProfileView.swift in Sources */,
 				FD69AE952925782700A4A391 /* CharactersModel.swift in Sources */,

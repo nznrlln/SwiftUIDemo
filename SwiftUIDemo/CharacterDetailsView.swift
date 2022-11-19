@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CharacterDetail: View {
+struct CharacterDetailsView: View {
 
     var character: CharacterModel
     
@@ -54,6 +54,6 @@ struct CharacterDetail: View {
 
 struct CharacterDetail_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterDetail(character: CharacterModel(name: "Kratos", origin: "", imageName: "Kratos", description: ""))
+        CharacterDetailsView(character: CharacterModel(name: "Kratos", origin: "", imageName: "Kratos", description: ""))
     }
 }
